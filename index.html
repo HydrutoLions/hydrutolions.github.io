@@ -63,6 +63,24 @@
                 margin-top: 35% !important;
             }
         }
+
+        .frame {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #ffffff;
+            border-radius: 50%;
+            overflow: hidden;
+            width: 80px;
+            height: 80px;
+        }
+
+        .frame img {
+            display: block;
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
     </style>
 
 
@@ -71,8 +89,11 @@
 <body>
     <div class="container">
         <div class="media mt-5">
-            <img src="https://ord-mirror.magiceden.dev/content/f8a6f55496ab36204b51f57534b7a571cea5915d71ef7f5ac142d7e2ddadf811i0"
-                class="m-3" alt="image" width="75px" height="75px">
+            <div class="frame">
+                <img
+                    src="https://ord-mirror.magiceden.dev/content/f8a6f55496ab36204b51f57534b7a571cea5915d71ef7f5ac142d7e2ddadf811i0"
+                    class="m-3" alt="image">
+            </div>
             <div class="media-body m-2">
                 <h5 class="align-items-center mt-2">Hydruto Lions</h5>
                 <p></p>
@@ -81,39 +102,42 @@
         <div class="mt-4">
             <a href="https://scroll.hydrutolions.xyz" class="btn btn-outline-dark btn-block" role="button"
                 target="_blank">
-                <i class="fas fa-scroll"></i> Hydruto Lions Scroll (whitepaper)
+                <i class="fas fa-scroll"></i>Hydruto Lions Scroll (whitepaper)
             </a>
-
             <br>
             <a href="https://discord.com/invite/aupsCmV7yQ" class="btn btn-outline-dark btn-block" role="button"
-                target="_blank"><i class="fab fa-discord">&nbsp;</i>Discord</a>
+                target="_blank">
+                <i class="fab fa-discord"></i>Discord
+            </a>
             <br>
             <a href="https://twitter.com/hydrutolions" class="btn btn-outline-dark btn-block" role="button"
-                target="_blank"><i class="fab fa-twitter">&nbsp;</i>Twitter</a>
+                target="_blank">
+                <i class="fab fa-twitter"></i>Twitter
+            </a>
             <br>
             <a href="https://magiceden.io/ordinals/marketplace/hydruto-origins" class="btn btn-outline-dark btn-block"
                 role="button" target="_blank">
-                <i class="fas fa-shopping-cart"></i> Hydruto Origins on MagicEden
+                <i class="fas fa-shopping-cart"></i>Hydruto Origins on MagicEden
             </a>
             <br>
             <a href="https://magiceden.io/ordinals/marketplace/hydruto-lions" class="btn btn-outline-dark btn-block"
                 role="button" target="_blank">
-                <i class="fas fa-shopping-cart"></i> Hydruto Lions on MagicEden
+                <i class="fas fa-shopping-cart"></i>Hydruto Lions on MagicEden
             </a>
             <br>
             <a href="https://magiceden.io/ordinals/marketplace/ancient-yokais" class="btn btn-outline-dark btn-block"
                 role="button" target="_blank">
-                <i class="fas fa-shopping-cart"></i> Ancient Yokai on MagicEden
+                <i class="fas fa-shopping-cart"></i>Ancient Yokai on MagicEden
             </a>
-
-            <!--------------------Footer---------------------------->
-            <div class="footer mt-5">
-                <hr />
-
-                <h6>
-                </h6>
-            </div>
         </div>
+        <!--------------------Footer---------------------------->
+        <div class="footer mt-5">
+            <hr />
+
+            <h6>
+            </h6>
+        </div>
+    </div>
 
 </body>
 
